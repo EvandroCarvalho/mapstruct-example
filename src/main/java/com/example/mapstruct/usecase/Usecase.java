@@ -1,4 +1,4 @@
-package com.example.mapstruct.service;
+package com.example.mapstruct.usecase;
 
 import com.example.mapstruct.dto.BeerDtoV2;
 import com.example.mapstruct.entity.Beer;

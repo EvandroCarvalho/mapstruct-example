@@ -1,0 +1,9 @@
+url:
+  consulta.cep: https://viacep.com.br/ws
+
+---
+spring:
+  profiles: test
+
+url:
+  consulta.cep: http://localhost:9001/

@@ -1,6 +1,4 @@
-package com.example.mapstruct.service;
-
-import static org.junit.jupiter.api.Assertions.*;
+package com.example.mapstruct.usecase;
 
 import com.example.mapstruct.dto.BeerDtoV2;
 import com.example.mapstruct.entity.Beer;
@@ -11,8 +9,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.junit4.SpringRunner;
 
 @ExtendWith(MockitoExtension.class)
 class UsecaseTest {

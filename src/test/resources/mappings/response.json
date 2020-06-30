@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/38400322/json/"
+  },
+  "response": {
+    "status": 200,
+    "body":"opa! mocado"
+  }
+}
