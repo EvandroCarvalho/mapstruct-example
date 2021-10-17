@@ -1,5 +1,6 @@
 package com.example.mapstruct.usecase;
 
+import com.example.mapstruct.entity.Address;
 import com.example.mapstruct.usecase.feign.CepService;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ public class ConsultaCepUseCase {
         this.cepService = cepService;
     }
 
-    public String busca(String cep) {
+    public Address busca(String cep) {
         return cepService.busca(cep);
     }
 }

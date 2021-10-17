@@ -1,5 +1,6 @@
 package com.example.mapstruct.usecase.feign;
 
+import com.example.mapstruct.entity.Address;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,5 +9,5 @@ import org.springframework.web.bind.annotation.PathVariable;
 public interface CepService {
 
     @GetMapping(path = "/{cep}/json/")
-    String busca(@PathVariable("cep") String cep);
+    Address busca(@PathVariable("cep") String cep);
 }
