@@ -5,7 +5,7 @@
 3. [MapStruct](#MapStruct)
 4. [Dependências](#Dependências)
 5. [Configuração](#Configuração)
-6. [Exemplo](#Exemplo)
+6. [Exemplo](/src/main/java/com/example/mapstruct/mapper/AddressMapper.java)
 7. [Documentação](https://mapstruct.org/)
 
 # Mapper
@@ -102,6 +102,3 @@ Para um objeto que possui uma associação ou composição
     Localizacao toLocalizacao(Address address);
       
 ```
-
-# Exemplo
-[mapper](/src/main/java/com/example/mapstruct/mapper/AddressMapper.java)
