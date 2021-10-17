@@ -1,14 +1,14 @@
 # Applicação o utilizando mapstruct para fazer mapper
 
-##Indice
+## Indice
 1. [mapper](#Mapper)
 2. [MapStruct](#MapStruct)
 2. [Dependências](#Dependências)
-2. [Configurar um mapping](#Configurar um mapping)
+2. [Configurar um mapping](#Configurar_um_mapping)
 2. [Exemplo](#Exemplo)
 
 
-#Mapper
+# Mapper
 Mapper é um padrão muito utilizado para mapemaneto entre objetos, comumente para o DTO. Como é algo comum, 
 existem  várias libs que abstraem a implementação, facilitando a vida do desenvolvedor e reduzindo o 
 [boilerplate](https://pt.wikipedia.org/wiki/Boilerplate_code).
@@ -18,7 +18,7 @@ exemplo um do próprio Spring que é uma interface `Converter<IN, OUT>` de imple
 dependência 
 
 
-#MapStruct
+# MapStruct
 É uma das mais libs rápidas, o <i>mapstruct</i> gera código em tempo de compilação, com isso é possível 
 ver o código e entender melhor como é o processo, ele não utiliza <i>reflection</i> como alguns 
 outros, e isso é muito importante pois facilida a vida da JVM e deixa o processo mais rápido. 
@@ -33,7 +33,7 @@ do lombok `@Builder` e `@Value` (a nível de conhecimento, o @Value é o @Data i
 [link](https://projectlombok.org/features/Value)).
 
 
-#Dependências
+# Dependências
 
 ```
     <dependency>
@@ -79,7 +79,7 @@ do lombok `@Builder` e `@Value` (a nível de conhecimento, o @Value é o @Data i
 			</plugin>
 ```
 
-#Configurar um mapping
+# Configurar um mapping
 ``@Mapping(target = "destino", source = "origem")``
 
 Ex.:
@@ -98,5 +98,5 @@ Para um objeto que possui uma associação ou composição
       
 ```
 
-#Exemplo
+# Exemplo
 [mapper](/src/main/java/com/example/mapstruct/mapper/AddressMapper.java)
