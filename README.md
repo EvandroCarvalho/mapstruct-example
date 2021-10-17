@@ -2,11 +2,11 @@
 
 ## Indice
 1. [Mapper](#Mapper)
-2. [MapStruct](#MapStruct)
-2. [Dependências](#Dependências)
-2. [Configurar um mapping](#Configurar_um_mapping)
-2. [Exemplo](#Exemplo)
-
+3. [MapStruct](#MapStruct)
+4. [Dependências](#Dependências)
+5. [Configuração](#Configuração)
+6. [Exemplo](#Exemplo)
+7. [Documentação](https://mapstruct.org/)
 
 # Mapper
 Mapper é um padrão muito utilizado para mapemaneto entre objetos, comumente para o DTO. Como é algo comum, 
@@ -79,7 +79,11 @@ do lombok `@Builder` e `@Value` (a nível de conhecimento, o @Value é o @Data i
 			</plugin>
 ```
 
-# Configurar um mapping
+# Configuração
+Criar uma inteface, anotar com `@Mapper`, para incluir no contexto do spring, coloque a propriedade <i>componentModel="spring"</i>, Ex.: ``@Mapper(componentModel = "spring")
+``
+
+
 ``@Mapping(target = "destino", source = "origem")``
 
 Ex.:
