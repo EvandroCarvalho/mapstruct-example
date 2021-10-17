@@ -5,10 +5,10 @@ import com.example.mapstruct.usecase.feign.CepService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ConsultaCepUseCase {
+public class CepConsultUseCase {
     private final CepService cepService;
 
-    public ConsultaCepUseCase(CepService cepService) {
+    public CepConsultUseCase(CepService cepService) {
         this.cepService = cepService;
     }
 

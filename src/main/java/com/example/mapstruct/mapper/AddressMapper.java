@@ -19,6 +19,4 @@ public interface AddressMapper {
     @Mapping(source = "localidade", target = "cidade")
     @Mapping(source = "uf", target = "estado")
     Localizacao toLocalizacao(Address address);
-
-
 }

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/38400322/json/"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\n      \"cep\": \"38400-322\",\n      \"logradouro\": \"Rua Varginha\",\n      \"complemento\": \"\",\n      \"bairro\": \"Daniel Fonseca\",\n      \"localidade\": \"Uberlândia\",\n      \"uf\": \"MG\",\n      \"ibge\": \"3170206\",\n      \"gia\": \"\",\n      \"ddd\": \"34\",\n      \"siafi\": \"5403\"\n    }",
+    "headers": {
+      "Content-Type" : "application/json"
+    }
+  }
+}
