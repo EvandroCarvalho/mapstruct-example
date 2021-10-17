@@ -1,7 +1,7 @@
 # Applicação o utilizando mapstruct para fazer mapper
 
 ## Indice
-1. [mapper](#Mapper)
+1. [Mapper](#Mapper)
 2. [MapStruct](#MapStruct)
 2. [Dependências](#Dependências)
 2. [Configurar um mapping](#Configurar_um_mapping)
