@@ -7,6 +7,6 @@ import lombok.Value;
 @Value
 public class Localizacao {
 
-    private String cidade;
-    private String estado;
+    private final String cidade;
+    private final String estado;
 }

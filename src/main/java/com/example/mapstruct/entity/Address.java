@@ -1,6 +1,5 @@
 package com.example.mapstruct.entity;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Builder;
 import lombok.Getter;
 
@@ -8,11 +7,8 @@ import lombok.Getter;
 @Getter
 public class Address {
 
-    @JsonProperty("cep")
     private final String cep;
-    @JsonProperty("logradouro")
     private final String logradouro;
-    @JsonProperty("complemento")
     private final String complemento;
     private final String bairro;
     private final String localidade;
