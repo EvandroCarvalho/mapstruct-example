@@ -83,6 +83,7 @@ do lombok `@Builder` e `@Value` (a nível de conhecimento, o @Value é o @Data i
 Criar uma inteface, anotar com `@Mapper`, para incluir no contexto do spring, coloque a propriedade <i>componentModel="spring"</i>, Ex.: ``@Mapper(componentModel = "spring")
 ``
 
+Para quando os atributos forem diferentes
 
 ``@Mapping(target = "destino", source = "origem")``
 
